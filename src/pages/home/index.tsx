@@ -2,13 +2,12 @@ import React from 'react'
 import Item from '../../components/site-item/index'
 import { SiteListModel } from '../../types/siteModel'
 import websites from "../../config/site";
-import './index.css'
+import './index.css';
 
 const Home: React.FC<{}> = (props) => {
   return (
     <div className="container">
-      <h1>程序员网址导航</h1>
-      <h2>hao.w3h5.com</h2>
+      <h1>程序员网址导航<small>（hao.w3h5.com）</small></h1>
       {
         websites && websites.map((item: SiteListModel, index: React.Key) => {
           return(

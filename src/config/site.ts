@@ -2,6 +2,47 @@ import { SiteListModel } from '../types/siteModel'
 
 const websites: SiteListModel[] = [
   {
+    cate: "技术社区",
+    sites: [
+      {
+        name: "掘金",
+        url: "https://juejin.cn/",
+        target: "_blank",
+        desc: "代码不止，掘金不停。"
+      },
+      {
+        name: "SegmentFault",
+        url: "https://segmentfault.com/",
+        target: "_blank",
+        desc: "思否"
+      },
+      {
+        name: "v2ex",
+        url: "https://www.v2ex.com/",
+        target: "_blank",
+        desc: "是创意工作者们的社区。"
+      },
+      {
+        name: "CSDN",
+        url: "https://www.csdn.net/",
+        target: "_blank",
+        desc: "专业开发者社区"
+      },
+      {
+        name: "博客园",
+        url: "https://www.cnblogs.com/",
+        target: "_blank",
+        desc: "开发者的网上家园"
+      },
+      {
+        name: "InfoQ",
+        url: "https://www.infoq.cn/",
+        target: "_blank",
+        desc: "促进软件开发及相关领域知识与创新的传播"
+      }
+    ]
+  },
+  {
     cate: "搜索引擎",
     sites: [
       {

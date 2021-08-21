@@ -7,7 +7,7 @@
 .site-item {
   width: 12.5%;
   color: #666;
-  text-align: center;
+  text-align: left;
 }
 .site-name {
   color: #333;
@@ -15,7 +15,7 @@
   margin: 20px 0;
 }
 .site-url {
-  transition: 0.3s;
+  transition: 0.1s;
   padding: 5px 10px;
 }
 .site-url:hover {
