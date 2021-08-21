@@ -21,6 +21,7 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src"
+    "src",
+    "type-scss.d.ts" // 配置的 css.d.ts文件
   ]
 }
