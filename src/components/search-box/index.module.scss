@@ -1,0 +1,36 @@
+.searchBox {
+  width: 800px;
+  height: 60px;
+  line-height: 60px;
+  margin: 10px auto 20px;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  box-sizing: border-box;
+
+  .searchSelect {
+    width: 15%;
+    text-align: center;
+    border-right: 1px solid #f2f2f2;
+    .searchList {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      display: none;
+    }
+  }
+
+  .searchValue {
+    width: 70%;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+  }
+
+  .searchButton {
+    width: 15%;
+    text-align: center;
+    border-left: 1px solid #f2f2f2;
+    padding: 0 20px;
+  }
+}
